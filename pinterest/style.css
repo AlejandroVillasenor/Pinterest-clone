@@ -1,14 +1,14 @@
 body {
-    background-color: #f2f2f2;
-    margin: 0;
+    background-color: #ffff;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
 }
-
 /* inicio de la nav */
 .nav {
     background-color: #ffffff;
     height: 56px;
-    width: auto;
+    width: 100%;
     padding: 16px;
     display: flex;
     flex-direction: row;
@@ -82,7 +82,6 @@ input {
     margin: 4px;
     cursor: pointer;
 }
-
 .gUZ:hover {
     background-color: rgba(128, 128, 128, 0.166);
     border-radius: 24px;
@@ -110,3 +109,26 @@ input {
     align-items: center;
 }
 /* fin de la nav */
+main {
+    columns: 6 120px;
+    margin-bottom: 0.5em;
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.phrase{
+    text-align: center;
+    font-size: 15.7px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    column-gap: 0.5em;
+}
+.description {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
